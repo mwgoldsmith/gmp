@@ -298,7 +298,7 @@ copy $(ProjectDir)..\..\mpn\generic\gmp-mparam.h .\gmp-mparam.h
       <PreprocessorDefinitions>inline=__inline;__GMP_WITHIN_GMP;NO_ASM;HAVE_CONFIG_H;DLL_EXPORT;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\..\;.\mpn;.\x86;.\x86\mpn;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>true</BufferSecurityCheck>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <ExceptionHandling>false</ExceptionHandling>
       <DisableSpecificWarnings>4996;4244;4146;4018;4554;4090;4267;4101;4334;4723;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <ProgramDataBaseFileName>$(OutDir)bin\$(TargetName).pdb</ProgramDataBaseFileName>
@@ -369,7 +369,7 @@ copy $(ProjectDir)..\..\mpn\generic\gmp-mparam.h .\gmp-mparam.h
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <PreprocessorDefinitions>inline=__inline;__GMP_WITHIN_GMP;NO_ASM;HAVE_CONFIG_H;DLL_EXPORT;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\..\;.\mpn;.\x86_64;.\x86_64\mpn;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <ExceptionHandling>false</ExceptionHandling>
       <DisableSpecificWarnings>4996;4244;4146;4018;4554;4090;4267;4101;4334;4723;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <ProgramDataBaseFileName>$(OutDir)bin\$(TargetName).pdb</ProgramDataBaseFileName>
@@ -600,7 +600,7 @@ copy $(ProjectDir)..\..\mpn\generic\gmp-mparam.h .\gmp-mparam.h
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <OmitFramePointers>true</OmitFramePointers>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <FloatingPointModel>Fast</FloatingPointModel>
       <FloatingPointExceptions>false</FloatingPointExceptions>
@@ -682,7 +682,7 @@ copy $(ProjectDir)..\..\mpn\generic\gmp-mparam.h .\gmp-mparam.h
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <OmitFramePointers>true</OmitFramePointers>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <FloatingPointModel>Fast</FloatingPointModel>
       <FloatingPointExceptions>false</FloatingPointExceptions>
